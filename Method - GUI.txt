@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Uzn Method", "Grape")
+
+
+local Main = Window:NewTab("Please Read")
+local MainSection = Main:NewSection("Scripts take a while to load so please wait")
+
+
+
+--main
+local Main = Window:NewTab("Rafa's GUI")
+local MainSection = Main:NewSection("Rafa's GUI")
+
+
+MainSection:NewButton("Rafa's GUI", "Launches Rafa's GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+end
